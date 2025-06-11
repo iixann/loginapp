@@ -19,6 +19,8 @@ if (isset($_SESSION['usuario'])) {
         <label>Contraseña:</label>
         <input type="password" name="password" required><br><br>
         <input type="submit" value="Ingresar">
+        <p>¿No tenés cuenta? <a href="registro.php">Registrarse</a></p>
+
     </form>
     <?php
     if (isset($_GET['error'])) {
